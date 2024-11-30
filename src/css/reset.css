@@ -8,27 +8,26 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
+a {
+  color: currentColor;
+  text-decoration: none;
+  font-size: 24px;
+  transition: color 250ms ease-in-out;
+}
+
+a:hover,
+a:focus {
+  color: #808080;
+}
+
+ul li {
+  list-style-type: none;
 }
 
 ul {
   margin: 0;
   padding: 0;
-  list-style: none;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
